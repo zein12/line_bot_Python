@@ -1,7 +1,7 @@
 #!/usr/bin/env python
+config:set DISABLE_COLLECTSTATIC=1
 import os
 import sys
-config:set DISABLE_COLLECTSTATIC=1
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "line_python.settings")
     try:
