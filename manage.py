@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-config:set DISABLE_COLLECTSTATIC=1
 import os
 import sys
 if __name__ == "__main__":
